@@ -11,7 +11,7 @@ function homeLoan (b1, b2, b3) {
  
  let decision= prompt("Do you want to finance a car or a home? Type stop at the first prompt to end the program")
  while (decision== "car" || decision =="home" || decision=="stop"){
-=======
+
   let carFV= a1 * (1 + a2) ** a3
   return carFV
   }
