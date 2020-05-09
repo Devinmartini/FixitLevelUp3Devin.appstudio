@@ -27,7 +27,7 @@ while (loan.toLowerCase() == "yes"){
       let homePrincipal = Number(prompt("What is your principal? (no dollar sign or commas)"))
       let homeRate = Number(prompt("What is your rate? (enter as a decimal i.e. 10% as 0.10)"))
       let homePeriod = Number(prompt("What is your period in years? (please choose from either 15 or 30 years)"))
-        if (homePeriod == 30){
+        if (homePeriod==15 || homePeriod==30){
           let homePercent = homeRate * 100
           let hRate= homeRate/12
           let hPeriod= homePeriod*12
